@@ -33,14 +33,44 @@ body{
   padding: 20px;
   margin: 80px auto;
  display: flex;
- flex-direction: column;
- 
+ flex-direction: column; 
  align-items: center;
   border-radius: 10px;
   box-shadow: 1px 3px 6px wheat;
   color: rgb(8, 161, 8);
   opacity: 1;
 }
+
+.btn{
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  padding: 12px;
+  margin: 15px;
+}
+
+#increaseBtn{
+  background: darkred;
+  font-size: large;
+}
+
+#increaseBtn:hover{
+  color: darkred ;
+  background: white;
+}
+
+#saveBtn{
+  background: darkgreen;
+  font-size: large;
+} 
+
+#saveBtn:hover{
+  color: darkgreen;
+  background: white;
+}
+
+
+
 
 #numberOfCustomers{
   font-size: 6rem;
