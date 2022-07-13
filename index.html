@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Font Awesome -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./media/icons/shopping-cart.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/presentation.png" />
   <title>Counter</title>
   <!-- MDB -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet" />
@@ -15,13 +15,15 @@
 
 <body>
   <!-- Jumbotron -->
+  <h1 class="welcomeText"><b>Welcome back!!!</b></h1>
   <div class="container bg-image rounded">
     <div>
       <h1><b>Customers Today:</b></h1>
     <p class="text-center" id="numberOfCustomers">0</h2>
     </div>
     <button type="button" class="btn" id="increaseBtn" onclick="increaseCount()">Increment</button>
-    <button type="button" class="btn" id="saveBtn">Save</button>
+    <button type="button" class="btn" id="saveBtn" onclick="saveEntry()">Save</button>
+    <p id="entries"><b><span class="darktext">Previous entries : </span></b></p>
   </div>
   <!-- Jumbotron -->
 

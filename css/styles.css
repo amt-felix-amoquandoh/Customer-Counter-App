@@ -14,6 +14,14 @@ body{
   background-color: rgb(176, 115, 115); 
 }
 
+.welcomeText{
+  margin: 25px;
+  font-weight: 900 ;
+  text-align: center;
+  font-family: monospace;
+  font-size: 3rem;
+}
+
 .container::after {
   content: "";
   background: url('../images/aurelien-thomas-Ms9sjaDRW9A-unsplash.jpg');
@@ -37,7 +45,7 @@ body{
  align-items: center;
   border-radius: 10px;
   box-shadow: 1px 3px 6px wheat;
-  color: rgb(8, 161, 8);
+  color: rgb(233, 240, 8);
   opacity: 1;
 }
 
@@ -70,12 +78,18 @@ body{
 }
 
 
-
-
 #numberOfCustomers{
   font-size: 6rem;
   color: black;
   font-weight: bolder;
 }
 
+#entries{
+  font-size: 1.8rem;
+  color: rgb(0, 255, 115);
+  font-weight: 900;
+}
 
+.darktext{
+  color: black;
+}
